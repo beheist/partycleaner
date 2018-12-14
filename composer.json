@@ -1,0 +1,19 @@
+{
+    "description": "Contains a CLI command to delete orphan ElectronicAddress instances from the Neos.Party package.",
+    "type": "neos-package",
+    "name": "beheist/partycleaner",
+    "require": {
+        "neos/flow": "*",
+        "neos/party": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Beheist\\PartyCleaner\\": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "Beheist.PartyCleaner"
+        }
+    }
+}
